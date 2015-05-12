@@ -1,0 +1,13 @@
+{
+  "name": "barebase-sass",
+  "homepage": "https://github.com/basecreative/barebase-sass",
+  "_release": "dbaf9eb8e8",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "dbaf9eb8e8a57f7fa6703fb6cd24e17a490f065c"
+  },
+  "_source": "git://github.com/basecreative/barebase-sass.git",
+  "_target": "*",
+  "_originalSource": "basecreative/barebase-sass"
+}
