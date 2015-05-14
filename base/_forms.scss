@@ -42,12 +42,18 @@ select,
 	}
 }
 
-// SELECT
-
+/* SELECT
+Remove all the styling, a wrapper will act as styled element
+1 -  Fixes Firefox's bug where the arrow didn't dissapear
+*/
 select{
 	width: 100%;
 	display: block;
 	padding-right: 2em;
+
+	-moz-appearance: none; /* 1 */
+	text-indent: 0.01px;
+	text-overflow: '';
 }
 // Hide the select arrow on IE10+
 select::-ms-expand {
