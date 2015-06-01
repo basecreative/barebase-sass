@@ -1,6 +1,11 @@
 {
   "name": "barebase-sass",
   "homepage": "https://github.com/basecreative/barebase-sass",
+  "ignore": [
+    "LICENSE",
+    "*.md",
+    "*.json"
+  ],
   "_release": "dbaf9eb8e8",
   "_resolution": {
     "type": "branch",

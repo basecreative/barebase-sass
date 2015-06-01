@@ -1,3 +1,14 @@
+// Generic variables
+@import "default";
 
-@import "default-flat";
+
+
+// DEVELOPMENT SPECIFIC VALUES
+
+// Generic path for resources
+$cdn-path: '../';
+
+
+
+// Styles
 @import "style";

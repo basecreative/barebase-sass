@@ -1,3 +1,14 @@
+// Generic variables
+@import "default";
 
-@import "default-dist";
+
+
+// DISTRIBUTION SPECIFIC VALUES
+
+// Generic path for resources
+$cdn-path: '/wp-uploads/';
+
+
+
+// Styles
 @import "style";

@@ -6,14 +6,11 @@
 		$BASE
 =======================*/
 
-// Text
-$font : "Foundry Sterling W01", "HelveticaNeue", Helvetica, Arial, sans-serif;
+// Default text
+$font : "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-secondary : Georgia, Times, "Times New Roman", serif;
 $mq-base-font-size: 16px;
 $line-height-ratio: 1.2;
-
-// Generic path for resources
-$cdn-path: '../';
 
 // Base border radius
 $base-radius: 0.5em;
@@ -25,21 +22,23 @@ $max-width: 72em;
 $space: 1em;
 
 
+
 /*=======================
 		$COLORS
 =======================*/
-
-$color-text: #111;
-$color-bg: #ff0;
 
 $color-primary: #111;
 $color-secondary: #a9122e;
 $color-tertiary: #043b6c;
 
-$color-link: #0f75bc;
+$color-text: #111;
+$color-bg: #f2f2f2;
 
-$color-success: #daebc1;
-$color-cancel: #C62230;
+$color-link: blue;
+
+$color-success: green;
+$color-cancel: red;
+
 
 
 /*=======================
@@ -48,12 +47,12 @@ $color-cancel: #C62230;
 
 $input-border-width: .2em;
 
+
+
 /*=======================
 	  $BREAKPOINTS
 =======================*/
 
-
-// Media queries
 $mq-breakpoints: (
     tiny:       15em,
     small:      320px,

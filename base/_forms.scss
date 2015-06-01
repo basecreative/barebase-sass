@@ -93,33 +93,6 @@ textarea{
 	border: .5em solid $color-bg;
 }
 
-// BUTTONS
-
-input[type="submit"],
-input[type="reset"],
-input[type="button"],
-button,
-.button{
-	display: inline-block;
-	width: auto;
-	padding: .75em 1em;
-	margin: 0 .1em;
-	box-shadow: none !important;
-	
-	transition: .25s all;
-	
-	border: none;
-	color: #fff;
-	background: $color-primary;
-	background: auto-gradient($color-primary);
-	font-weight: 700;
-
-	&:hover{
-		color: $color-link;
-		cursor: pointer;
-	}
-}
-
 
 input[type="checkbox"]{
 	-webkit-appearance: checkbox;

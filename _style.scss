@@ -1,26 +1,35 @@
 
-@import "generic/mq";
-@import "generic/ext";
-@import "generic/cookies";
-@import "mixins";
+// External utilities
+@import "vendor/mq";
+@import "vendor/ext";
 
-@import "generic/normalize";
+// Project utilities
+@import "utils/functions";
+@import "utils/mixins";
 
+// Generic CSS
+@import "vendor/normalize";
+@import "vendor/cookies";
+
+// Base
 @import "base/main";
-@import "base/shared";
 @import "base/headings";
 @import "base/paragraph";
 @import "base/quote";
 @import "base/links";
 @import "base/lists";
-@import "base/forms";
 @import "base/code";
 @import "base/table";
 @import "base/media";
+@import "base/shared";
+@import "base/forms";
+@import "base/button";
 
+// Components
 @import "objects/header";
 @import "objects/nav";
 @import "objects/footer";
 
-// Add layouts for specific templates
-//@import "layout/home";
+// Layouts
+@import "layout/page";
+@import "layout/home";
